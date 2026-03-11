@@ -1,0 +1,11 @@
+{
+  "country": "Netherlands",
+  "country_code": "NL",
+  "currency": "EUR",
+  "year": 2025,
+  "includes_social_contributions": true,
+  "brackets": [
+    { "min": 0, "max": 75518, "rate": 36.9 },
+    { "min": 75518, "max": null, "rate": 49.5 }
+  ]
+}

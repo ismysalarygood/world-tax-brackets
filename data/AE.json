@@ -1,0 +1,10 @@
+{
+  "country": "United Arab Emirates",
+  "country_code": "AE",
+  "currency": "AED",
+  "year": 2025,
+  "includes_social_contributions": false,
+  "brackets": [
+    { "min": 0, "max": null, "rate": 0.0 }
+  ]
+}

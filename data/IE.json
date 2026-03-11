@@ -1,0 +1,11 @@
+{
+  "country": "Ireland",
+  "country_code": "IE",
+  "currency": "EUR",
+  "year": 2025,
+  "includes_social_contributions": false,
+  "brackets": [
+    { "min": 0, "max": 42000, "rate": 20.0 },
+    { "min": 42000, "max": null, "rate": 40.0 }
+  ]
+}

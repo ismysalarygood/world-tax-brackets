@@ -1,0 +1,14 @@
+{
+  "country": "Australia",
+  "country_code": "AU",
+  "currency": "AUD",
+  "year": 2025,
+  "includes_social_contributions": false,
+  "brackets": [
+    { "min": 0, "max": 18200, "rate": 0.0 },
+    { "min": 18200, "max": 45000, "rate": 19.0 },
+    { "min": 45000, "max": 120000, "rate": 32.5 },
+    { "min": 120000, "max": 180000, "rate": 37.0 },
+    { "min": 180000, "max": null, "rate": 45.0 }
+  ]
+}

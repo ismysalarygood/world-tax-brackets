@@ -1,0 +1,14 @@
+{
+  "country": "Canada",
+  "country_code": "CA",
+  "currency": "CAD",
+  "year": 2025,
+  "includes_social_contributions": true,
+  "brackets": [
+    { "min": 0, "max": 55867, "rate": 20.0 },
+    { "min": 55867, "max": 111733, "rate": 29.0 },
+    { "min": 111733, "max": 154906, "rate": 33.0 },
+    { "min": 154906, "max": 220000, "rate": 37.0 },
+    { "min": 220000, "max": null, "rate": 40.0 }
+  ]
+}

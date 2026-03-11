@@ -1,0 +1,15 @@
+{
+  "country": "United States",
+  "country_code": "US",
+  "currency": "USD",
+  "year": 2025,
+  "includes_social_contributions": true,
+  "brackets": [
+    { "min": 0, "max": 11600, "rate": 15.0 },
+    { "min": 11600, "max": 47150, "rate": 22.0 },
+    { "min": 47150, "max": 100525, "rate": 29.0 },
+    { "min": 100525, "max": 191950, "rate": 31.0 },
+    { "min": 191950, "max": 243725, "rate": 37.0 },
+    { "min": 243725, "max": null, "rate": 42.0 }
+  ]
+}

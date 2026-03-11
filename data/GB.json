@@ -1,0 +1,13 @@
+{
+  "country": "United Kingdom",
+  "country_code": "GB",
+  "currency": "GBP",
+  "year": 2025,
+  "includes_social_contributions": true,
+  "brackets": [
+    { "min": 0, "max": 12570, "rate": 12.0 },
+    { "min": 12570, "max": 50270, "rate": 32.0 },
+    { "min": 50270, "max": 125140, "rate": 42.0 },
+    { "min": 125140, "max": null, "rate": 47.0 }
+  ]
+}

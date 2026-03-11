@@ -1,0 +1,14 @@
+{
+  "country": "Germany",
+  "country_code": "DE",
+  "currency": "EUR",
+  "year": 2025,
+  "includes_social_contributions": false,
+  "brackets": [
+    { "min": 0, "max": 11604, "rate": 0.0 },
+    { "min": 11604, "max": 17005, "rate": 14.0 },
+    { "min": 17005, "max": 66760, "rate": 24.0 },
+    { "min": 66760, "max": 277825, "rate": 42.0 },
+    { "min": 277825, "max": null, "rate": 45.0 }
+  ]
+}
