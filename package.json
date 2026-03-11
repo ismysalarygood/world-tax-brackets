@@ -1,0 +1,35 @@
+{
+  "name": "progressive-tax",
+  "version": "1.0.0",
+  "description": "Progressive income tax calculator with built-in bracket data for 26 countries. Zero dependencies.",
+  "main": "calculators/tax.js",
+  "types": "calculators/tax.d.ts",
+  "files": [
+    "calculators/tax.js",
+    "calculators/tax.d.ts",
+    "data/*.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/tax.test.js"
+  },
+  "keywords": [
+    "tax",
+    "progressive-tax",
+    "income-tax",
+    "tax-calculator",
+    "tax-brackets",
+    "salary",
+    "payroll",
+    "fintech",
+    "tax-rates"
+  ],
+  "author": "ismysalarygood",
+  "license": "MIT",
+  "homepage": "https://ismysalarygood.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismysalarygood/world-tax-brackets"
+  }
+}

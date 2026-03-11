@@ -1,0 +1,15 @@
+{
+  "country": "Italy",
+  "country_code": "IT",
+  "currency": "EUR",
+  "currency_symbol": "€",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/italy/individual/taxes-on-personal-income",
+  "notes": "National IRPEF rates. Regional surcharge (1.23-3.33%) and municipal surcharge (up to 0.8%) apply in addition. 3-bracket system made structural from 2025.",
+  "brackets": [
+    { "min": 0, "max": 28000, "rate": 0.23 },
+    { "min": 28000, "max": 50000, "rate": 0.35 },
+    { "min": 50000, "max": null, "rate": 0.43 }
+  ]
+}

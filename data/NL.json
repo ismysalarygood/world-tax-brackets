@@ -2,10 +2,14 @@
   "country": "Netherlands",
   "country_code": "NL",
   "currency": "EUR",
-  "year": 2025,
-  "includes_social_contributions": true,
+  "currency_symbol": "€",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/business/payroll_taxes/you_are_not_established_in_the_netherlands_are_you_required_to_withhold_payroll_taxes/when_you_are_going_to_withhold_payroll_taxes/calculating_payroll_taxes/rates/rates-2025/table-1-brackets-wage-tax-national-insurance-contributions-2025",
+  "notes": "Box 1 combined rate (income tax + national insurance contributions). First bracket split into two for 2025. National insurance (27.65%) is included in the rates for brackets 1 and 2.",
   "brackets": [
-    { "min": 0, "max": 75518, "rate": 36.9 },
-    { "min": 75518, "max": null, "rate": 49.5 }
+    { "min": 0, "max": 38441, "rate": 0.3582 },
+    { "min": 38441, "max": 76817, "rate": 0.3748 },
+    { "min": 76817, "max": null, "rate": 0.495 }
   ]
 }

@@ -20,7 +20,7 @@
   /**
    * Calculate progressive tax for a given income.
    *
-   * @param {Array} brackets - Array of { min, max, rate } objects. Rate is percentage (e.g. 22.0 = 22%).
+   * @param {Array} brackets - Array of { min, max, rate } objects. Rate as decimal (e.g. 0.22 = 22%).
    * @param {number} grossIncome - Annual gross income in local currency.
    * @returns {{ totalTax: number, effectiveRate: number, netIncome: number, breakdown: Array }}
    */
@@ -36,7 +36,7 @@
       var b = brackets[i];
       var min = b.min;
       var max = b.max === null || b.max === undefined ? Infinity : b.max;
-      var rate = b.rate / 100;
+      var rate = b.rate > 1 ? b.rate / 100 : b.rate;
 
       if (grossIncome <= min) break;
 
@@ -53,7 +53,7 @@
       });
     }
 
-    var effectiveRate = Math.round((totalTax / grossIncome) * 1000) / 10;
+    var effectiveRate = Math.round((totalTax / grossIncome) * 10000) / 100;
 
     return {
       totalTax: totalTax,

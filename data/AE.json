@@ -2,8 +2,11 @@
   "country": "United Arab Emirates",
   "country_code": "AE",
   "currency": "AED",
-  "year": 2025,
-  "includes_social_contributions": false,
+  "currency_symbol": "د.إ",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/united-arab-emirates/individual/taxes-on-personal-income",
+  "notes": "No personal income tax. No social security contributions for expatriates. UAE nationals pay 5% pension contribution.",
   "brackets": [
     { "min": 0, "max": null, "rate": 0.0 }
   ]

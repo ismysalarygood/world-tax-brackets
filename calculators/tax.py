@@ -19,7 +19,7 @@ def calculate_tax(brackets: list[dict], gross_income: int | float) -> dict:
     Calculate progressive tax for a given income.
 
     Args:
-        brackets: List of dicts with keys: min, max (null=no limit), rate (percentage).
+        brackets: List of dicts with keys: min, max (null=no limit), rate (decimal, e.g. 0.22 = 22%).
         gross_income: Annual gross income in local currency.
 
     Returns:
@@ -34,7 +34,7 @@ def calculate_tax(brackets: list[dict], gross_income: int | float) -> dict:
     for b in brackets:
         b_min = b["min"]
         b_max = b["max"] if b["max"] is not None else float("inf")
-        rate = b["rate"] / 100
+        rate = b["rate"] / 100 if b["rate"] > 1 else b["rate"]
 
         if gross_income <= b_min:
             break

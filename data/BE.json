@@ -1,0 +1,16 @@
+{
+  "country": "Belgium",
+  "country_code": "BE",
+  "currency": "EUR",
+  "currency_symbol": "€",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/belgium/individual/taxes-on-personal-income",
+  "notes": "Federal income tax (personenbelasting/impôt des personnes physiques). Tax-free allowance of €10,910. Communal taxes of 0-9% of income tax apply in addition. Social security of 13.07% for employees deducted before tax.",
+  "brackets": [
+    { "min": 0, "max": 16720, "rate": 0.25 },
+    { "min": 16720, "max": 29510, "rate": 0.40 },
+    { "min": 29510, "max": 51070, "rate": 0.45 },
+    { "min": 51070, "max": null, "rate": 0.50 }
+  ]
+}

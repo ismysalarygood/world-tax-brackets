@@ -1,0 +1,17 @@
+{
+  "country": "Brazil",
+  "country_code": "BR",
+  "currency": "BRL",
+  "currency_symbol": "R$",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/brazil/individual/taxes-on-personal-income",
+  "notes": "Federal IRPF (Imposto de Renda Pessoa Física). Monthly thresholds shown annualized. Social security (INSS) deducted before tax. Note: Law 15,270/2025 enacted significant reforms for 2026 onwards.",
+  "brackets": [
+    { "min": 0, "max": 24511.92, "rate": 0.0 },
+    { "min": 24511.92, "max": 33919.80, "rate": 0.075 },
+    { "min": 33919.80, "max": 45012.60, "rate": 0.15 },
+    { "min": 45012.60, "max": 55976.16, "rate": 0.225 },
+    { "min": 55976.16, "max": null, "rate": 0.275 }
+  ]
+}

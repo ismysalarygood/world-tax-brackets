@@ -1,0 +1,18 @@
+{
+  "country": "Spain",
+  "country_code": "ES",
+  "currency": "EUR",
+  "currency_symbol": "€",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/spain/individual/taxes-on-personal-income",
+  "notes": "Combined state + general autonomous community rates (IRPF). Actual rates may vary by autonomous community. These are the standard state-level brackets.",
+  "brackets": [
+    { "min": 0, "max": 12450, "rate": 0.19 },
+    { "min": 12450, "max": 20200, "rate": 0.24 },
+    { "min": 20200, "max": 35200, "rate": 0.30 },
+    { "min": 35200, "max": 60000, "rate": 0.37 },
+    { "min": 60000, "max": 300000, "rate": 0.45 },
+    { "min": 300000, "max": null, "rate": 0.47 }
+  ]
+}

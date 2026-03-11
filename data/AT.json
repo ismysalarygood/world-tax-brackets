@@ -1,0 +1,19 @@
+{
+  "country": "Austria",
+  "country_code": "AT",
+  "currency": "EUR",
+  "currency_symbol": "€",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://www.usp.gv.at/en/themen/steuern-finanzen/einkommensteuer-ueberblick/weitere-informationen-est/tarifstufen.html",
+  "notes": "Einkommensteuer (income tax). Thresholds increased by 3.83% for 2025. 55% rate on income over €1,000,000 applies temporarily (2016-2025). Social security contributions (~18% for employees) deducted before tax.",
+  "brackets": [
+    { "min": 0, "max": 13308, "rate": 0.0 },
+    { "min": 13308, "max": 21617, "rate": 0.20 },
+    { "min": 21617, "max": 35836, "rate": 0.30 },
+    { "min": 35836, "max": 69166, "rate": 0.40 },
+    { "min": 69166, "max": 103072, "rate": 0.48 },
+    { "min": 103072, "max": 1000000, "rate": 0.50 },
+    { "min": 1000000, "max": null, "rate": 0.55 }
+  ]
+}

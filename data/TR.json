@@ -1,0 +1,17 @@
+{
+  "country": "Turkey",
+  "country_code": "TR",
+  "currency": "TRY",
+  "currency_symbol": "₺",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/turkey/individual/taxes-on-personal-income",
+  "notes": "Employment income brackets shown. Non-wage income has different thresholds for the 20% and 27% brackets. Social security (14%) and unemployment insurance (1%) are deducted before tax.",
+  "brackets": [
+    { "min": 0, "max": 158000, "rate": 0.15 },
+    { "min": 158000, "max": 330000, "rate": 0.20 },
+    { "min": 330000, "max": 1200000, "rate": 0.27 },
+    { "min": 1200000, "max": 4300000, "rate": 0.35 },
+    { "min": 4300000, "max": null, "rate": 0.40 }
+  ]
+}

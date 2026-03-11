@@ -1,0 +1,22 @@
+{
+  "country": "Portugal",
+  "country_code": "PT",
+  "currency": "EUR",
+  "currency_symbol": "€",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/portugal/individual/taxes-on-personal-income",
+  "notes": "IRS (Imposto sobre o Rendimento das Pessoas Singulares). 9 progressive brackets. Additional solidarity surcharge of 2.5% on income over €80,000 and 5% on income over €250,000. Social security of 11% for employees deducted separately. Brackets updated by 4.6% for 2025.",
+  "confidence": "medium",
+  "brackets": [
+    { "min": 0, "max": 8059, "rate": 0.1325 },
+    { "min": 8059, "max": 12160, "rate": 0.18 },
+    { "min": 12160, "max": 17233, "rate": 0.23 },
+    { "min": 17233, "max": 22306, "rate": 0.26 },
+    { "min": 22306, "max": 32015, "rate": 0.3275 },
+    { "min": 32015, "max": 41581, "rate": 0.37 },
+    { "min": 41581, "max": 55945, "rate": 0.435 },
+    { "min": 55945, "max": 83696, "rate": 0.45 },
+    { "min": 83696, "max": null, "rate": 0.48 }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "country": "New Zealand",
+  "country_code": "NZ",
+  "currency": "NZD",
+  "currency_symbol": "$",
+  "filing_status": "individual",
+  "tax_year": "2025/26",
+  "source": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals",
+  "notes": "PAYE rates. No social security contributions. No capital gains tax (with some exceptions). Tax year runs April 1 to March 31. ACC levies apply separately.",
+  "brackets": [
+    { "min": 0, "max": 15600, "rate": 0.105 },
+    { "min": 15600, "max": 53500, "rate": 0.175 },
+    { "min": 53500, "max": 78100, "rate": 0.30 },
+    { "min": 78100, "max": 180000, "rate": 0.33 },
+    { "min": 180000, "max": null, "rate": 0.39 }
+  ]
+}

@@ -2,13 +2,16 @@
   "country": "Canada",
   "country_code": "CA",
   "currency": "CAD",
-  "year": 2025,
-  "includes_social_contributions": true,
+  "currency_symbol": "$",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/canadian-income-tax-rates-individuals-current-previous-years.html",
+  "notes": "Federal tax only. Lowest bracket blended rate is 14.5% for 2025 (reduced from 15% to 14% effective July 1). Provincial taxes apply in addition. Basic Personal Amount is $16,129.",
   "brackets": [
-    { "min": 0, "max": 55867, "rate": 20.0 },
-    { "min": 55867, "max": 111733, "rate": 29.0 },
-    { "min": 111733, "max": 154906, "rate": 33.0 },
-    { "min": 154906, "max": 220000, "rate": 37.0 },
-    { "min": 220000, "max": null, "rate": 40.0 }
+    { "min": 0, "max": 57375, "rate": 0.145 },
+    { "min": 57375, "max": 114750, "rate": 0.205 },
+    { "min": 114750, "max": 177882, "rate": 0.26 },
+    { "min": 177882, "max": 253414, "rate": 0.29 },
+    { "min": 253414, "max": null, "rate": 0.33 }
   ]
 }

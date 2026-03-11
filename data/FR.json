@@ -2,13 +2,16 @@
   "country": "France",
   "country_code": "FR",
   "currency": "EUR",
-  "year": 2025,
-  "includes_social_contributions": false,
+  "currency_symbol": "€",
+  "filing_status": "single",
+  "tax_year": 2025,
+  "source": "https://www.service-public.gouv.fr/particuliers/actualites/A18045?lang=en",
+  "notes": "Income tax (impôt sur le revenu) per fiscal share. Thresholds for income earned in 2025 (declared in 2026). Additional social contributions (CSG/CRDS ~9.7%) apply separately.",
   "brackets": [
-    { "min": 0, "max": 11294, "rate": 0.0 },
-    { "min": 11294, "max": 28797, "rate": 11.0 },
-    { "min": 28797, "max": 82341, "rate": 30.0 },
-    { "min": 82341, "max": 177106, "rate": 41.0 },
-    { "min": 177106, "max": null, "rate": 45.0 }
+    { "min": 0, "max": 11600, "rate": 0.0 },
+    { "min": 11600, "max": 29579, "rate": 0.11 },
+    { "min": 29579, "max": 84577, "rate": 0.30 },
+    { "min": 84577, "max": 181917, "rate": 0.41 },
+    { "min": 181917, "max": null, "rate": 0.45 }
   ]
 }

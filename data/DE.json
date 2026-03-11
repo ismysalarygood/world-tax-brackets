@@ -2,13 +2,16 @@
   "country": "Germany",
   "country_code": "DE",
   "currency": "EUR",
-  "year": 2025,
-  "includes_social_contributions": false,
+  "currency_symbol": "€",
+  "filing_status": "single",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/germany/individual/taxes-on-personal-income",
+  "notes": "Federal income tax (Einkommensteuer). Germany uses a progressive formula between zones, not flat bracket rates. These are simplified approximations. Solidarity surcharge (5.5% of tax) exempted for most. Church tax (8-9% of tax) applies to church members.",
   "brackets": [
-    { "min": 0, "max": 11604, "rate": 0.0 },
-    { "min": 11604, "max": 17005, "rate": 14.0 },
-    { "min": 17005, "max": 66760, "rate": 24.0 },
-    { "min": 66760, "max": 277825, "rate": 42.0 },
-    { "min": 277825, "max": null, "rate": 45.0 }
+    { "min": 0, "max": 12096, "rate": 0.0 },
+    { "min": 12096, "max": 17443, "rate": 0.14 },
+    { "min": 17443, "max": 68480, "rate": 0.24 },
+    { "min": 68480, "max": 277826, "rate": 0.42 },
+    { "min": 277826, "max": null, "rate": 0.45 }
   ]
 }

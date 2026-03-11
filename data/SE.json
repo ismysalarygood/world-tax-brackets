@@ -1,0 +1,14 @@
+{
+  "country": "Sweden",
+  "country_code": "SE",
+  "currency": "SEK",
+  "currency_symbol": "kr",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/sweden/individual/taxes-on-personal-income",
+  "notes": "State income tax only (0% or 20%). Municipal tax (~32.41% average) applies on all income in addition. Total marginal rate for top earners is approximately 52%. No separate bracket structure for municipal tax.",
+  "brackets": [
+    { "min": 0, "max": 625800, "rate": 0.0 },
+    { "min": 625800, "max": null, "rate": 0.20 }
+  ]
+}

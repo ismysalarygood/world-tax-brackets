@@ -1,0 +1,18 @@
+{
+  "country": "Norway",
+  "country_code": "NO",
+  "currency": "NOK",
+  "currency_symbol": "kr",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://www.skatteetaten.no/en/rates/bracket-tax/",
+  "notes": "Bracket tax (trinnskatt) only. A flat 22% general income tax applies on all income in addition. Social security (trygdeavgift) of 7.7% on wages also applies. Total marginal rate for top earners is approximately 47.4%.",
+  "brackets": [
+    { "min": 0, "max": 217400, "rate": 0.0 },
+    { "min": 217400, "max": 306050, "rate": 0.017 },
+    { "min": 306050, "max": 697150, "rate": 0.04 },
+    { "min": 697150, "max": 942400, "rate": 0.137 },
+    { "min": 942400, "max": 1410750, "rate": 0.167 },
+    { "min": 1410750, "max": null, "rate": 0.177 }
+  ]
+}

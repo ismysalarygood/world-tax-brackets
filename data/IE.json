@@ -2,10 +2,13 @@
   "country": "Ireland",
   "country_code": "IE",
   "currency": "EUR",
-  "year": 2025,
-  "includes_social_contributions": false,
+  "currency_symbol": "€",
+  "filing_status": "single",
+  "tax_year": 2025,
+  "source": "https://www.revenue.ie/en/personal-tax-credits-reliefs-and-exemptions/tax-relief-charts/index.aspx",
+  "notes": "Income tax rates only. USC (Universal Social Charge) of 0.5-8% and PRSI (social insurance) of 4% apply in addition. Personal tax credit of €2,000.",
   "brackets": [
-    { "min": 0, "max": 42000, "rate": 20.0 },
-    { "min": 42000, "max": null, "rate": 40.0 }
+    { "min": 0, "max": 44000, "rate": 0.20 },
+    { "min": 44000, "max": null, "rate": 0.40 }
   ]
 }

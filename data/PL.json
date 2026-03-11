@@ -1,0 +1,14 @@
+{
+  "country": "Poland",
+  "country_code": "PL",
+  "currency": "PLN",
+  "currency_symbol": "zł",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/poland/individual/taxes-on-personal-income",
+  "notes": "Progressive PIT rates. Tax-free allowance of PLN 30,000 (built into tax credit of PLN 3,600). 4% solidarity surcharge on income over PLN 1,000,000. Social security contributions deducted before tax. Workers under 26 exempt up to PLN 85,528.",
+  "brackets": [
+    { "min": 0, "max": 120000, "rate": 0.12 },
+    { "min": 120000, "max": null, "rate": 0.32 }
+  ]
+}

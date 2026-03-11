@@ -1,0 +1,14 @@
+{
+  "country": "Denmark",
+  "country_code": "DK",
+  "currency": "DKK",
+  "currency_symbol": "kr",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://skat.dk/en-us/help/tax-rates",
+  "notes": "National tax only (bundskat + topskat). Municipal tax (~24.97% average) and labor market contribution (8% AM-bidrag, deducted before other taxes) apply in addition. Church tax (~0.7%) for church members. Total marginal rate capped at ~52.07%.",
+  "brackets": [
+    { "min": 0, "max": 588900, "rate": 0.1210 },
+    { "min": 588900, "max": null, "rate": 0.2710 }
+  ]
+}

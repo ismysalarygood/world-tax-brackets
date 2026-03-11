@@ -1,0 +1,20 @@
+{
+  "country": "South Korea",
+  "country_code": "KR",
+  "currency": "KRW",
+  "currency_symbol": "₩",
+  "filing_status": "individual",
+  "tax_year": 2025,
+  "source": "https://taxsummaries.pwc.com/republic-of-korea/individual/taxes-on-personal-income",
+  "notes": "National income tax only. Local income tax of 10% of national tax applies in addition (effectively adds ~0.6-4.5% marginal). Amounts in millions of KRW.",
+  "brackets": [
+    { "min": 0, "max": 14000000, "rate": 0.06 },
+    { "min": 14000000, "max": 50000000, "rate": 0.15 },
+    { "min": 50000000, "max": 88000000, "rate": 0.24 },
+    { "min": 88000000, "max": 150000000, "rate": 0.35 },
+    { "min": 150000000, "max": 300000000, "rate": 0.38 },
+    { "min": 300000000, "max": 500000000, "rate": 0.40 },
+    { "min": 500000000, "max": 1000000000, "rate": 0.42 },
+    { "min": 1000000000, "max": null, "rate": 0.45 }
+  ]
+}
